@@ -25,4 +25,6 @@ One thing I notice in the device console is that the following line is present w
 
 	com.apple.debugserver-300.2[13334] <Warning>: Setting ActivateForEvent key in options dictionary.
 
-But is absent for the podless version.
+But is absent for the podless version.  This may not even be relevant, and just might be another symptom of the actual problem.
+
+For reference, I filed this with Apple as rdar://15237342 "Can't use "launch due to a background fetch event" to launch app in BG if OpenGLES.framework is linked"
