@@ -22,6 +22,7 @@ In the scheme settings, "Launch Due To A Background Fetch Event" is checked.
 This version, if run on a device, will launch in the foreground instead of the background.
 
 One thing I notice in the device console is that the following line is present when the original app is launched due to a bg fetch event
-com.apple.debugserver-300.2[13334] <Warning>: Setting ActivateForEvent key in options dictionary.
+
+	com.apple.debugserver-300.2[13334] <Warning>: Setting ActivateForEvent key in options dictionary.
 
 But is absent for the podless version.
